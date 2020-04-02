@@ -6,7 +6,7 @@ This code will try to take care of transpiling the well-known EEC Universal Data
 
 #### BETA: This is an in-progress project. Please report issues.
 
-### EEC Updates ( Not official ):
+### EEC Updates
 
  - No Checkout Steps. now just one: Begin Checkout
  - Checkout options are now: add_shipping_info and add_payment_info

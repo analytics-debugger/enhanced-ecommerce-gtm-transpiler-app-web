@@ -41,7 +41,6 @@ This code will try to take care of transpiling the well-known EEC Universal Data
 
 
 ## Item Model
-
     {
           'item_id': undefined,        // &id
           'item_name': undefined,      // &nm
@@ -60,9 +59,23 @@ This code will try to take care of transpiling the well-known EEC Universal Data
           'item_list_id': undefined,   // &li
           'index': undefined,          // &lp
         }
+## Items (  )
+    {
+           '&pr1': 'idP12345~nmAndroid Warhol T-Shirt~lnSearch Results~brGoogle~caApparel/T-Shirts~vaBlack~lp1~qt2~pr2.0',          
+           '&pr2': ...,          
+
+    }
+
+
 ## Transaction
     {
-          'affiliation': undefined,    // &af
+          'transaction_id': undefined,    // &ep.transaction_id
+          'affiliation': undefined,       // &ep.affiliation
+          'revenue': undefined,           // &epn.value
+          'tax': undefined,               // &epn.tax
+          'shipping': undefined,          // &epn.shipping
+          'coupon': undefined,            // &ep.coupon
+
     }
 ## Promotion Model
 

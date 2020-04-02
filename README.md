@@ -5,6 +5,13 @@ Google Analytics just added support Enhnaced Ecommerce for APP+WEB, but the curr
 
 This code will try to take care of transpiling the well-known EEC Universal DataLayer pushes model automatically to the new APP+WEB one.
 
+### EEC Updates ( Not official ):
+
+ - No Checkout Steps. now just one: Begin Checkout
+ - New ***discount*** metric for products ( or transactions, not sure )
+ - New ***item_list_id*** dimension for product impressions tracking
+ -  New ***location_id*** dimensions for promotion tracking
+
 ### More Info:
 
  - APP+WEB Enhanced Ecommerce GTM Devguide:
@@ -59,7 +66,6 @@ This code will try to take care of transpiling the well-known EEC Universal Data
         'creative_slot': promo.position,
         'location_id': undefined
     }
-
 
 
 
